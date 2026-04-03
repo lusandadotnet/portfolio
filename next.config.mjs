@@ -4,6 +4,11 @@ import createMDX from '@next/mdx';
 const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: '/portfolio', // Ensure this exactly matches your repo name
 };
 
 const withMDX = createMDX({
