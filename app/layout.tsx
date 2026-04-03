@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   title: {
-    default: 'Lusanda Ndlovu | Software Developer',
+    default: 'Lusanda Ndlovu | Software Dev',
     template: '%s | Lusanda Ndlovu',
   },
   description:  'Personal portfolio of Lusanda Ndlovu, a backend software developer and final-year student at Nelson Mandela University specializing in scalable .NET applications, APIs, and system design.'
