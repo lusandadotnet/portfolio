@@ -49,77 +49,111 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work1',
+    company: 'Nelson Mandela University',
+    title: 'Diploma in Information Technology - Software Development',
+    start: 'Feb 2024',
+    end: 'Present', // Update this to your expected graduation month, or use 'Present'
+    link: 'https://www.mandela.ac.za/',
+    id: 'edu1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
+    company: 'Microsoft Certified',
+    title: 'AZ-900: Azure Fundamentals',
+    start: 'April 2026', 
+    end: 'Apr 2026', 
+    link: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/',
+    id: 'cert-az900',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
+    company: 'Microsoft',
+    title: 'Back-End Developer Professional Certificate',
+    start: 'Jan 2026', // Update to the month you started
+    end: 'Apr 2026',    // If finished, change to the month you got the certificate
+    link: '#', 
+    id: 'cert1',
   },
+  {
+    company: 'Amazon Web Services (AWS)',
+    title: 'Architecting Solutions on AWS',
+    start: 'Feb 2026', 
+    end: 'Apr 2026',
+    link: '#', 
+    id: 'cert2',
+  },
+  {
+    company: 'Microsoft Applied Skills',
+    title: 'Azure Cloud-Native Apps & SQL Database',
+    start: 'Mar 2026', // Update month
+    end: 'Apr 2026',
+    link: '#', 
+    id: 'cert3',
+  },
+  {
+    company: 'Microsoft Applied Skills',
+    title: 'Deploy & Configure Azure Monitor',
+    start: 'Mar 2026', // Update month
+    end: 'Apr 2026',
+    link: '#', 
+    id: 'cert4',
+  }
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-1',
+    title: '.NET & C# Development',
+    description: 'Building reliable backend logic and scalable APIs using the latest .NET features.',
+    link: '#', 
+    uid: 'stack-1',
   },
   {
-    title: 'Why I left my job to start my own company',
-    description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-2',
+    title: 'Data Persistence & Caching',
+    description: 'Managing data across SQL Server, PostgreSQL, and MongoDB using EF Core and Dapper, backed by Redis and SQL Server caching.',
+    link: '#',
+    uid: 'stack-2',
   },
   {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-3',
+    title: 'Cloud (Azure & AWS)',
+    description: 'Deploying cloud-native apps with Azure Container Apps and architecting resilient AWS solutions.',
+    link: '#',
+    uid: 'stack-3',
   },
   {
-    title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
-    link: '/blog/example-mdx-metadata',
-    uid: 'blog-4',
+    title: 'DevOps & Infrastructure',
+    description: 'Managing Linux environments and automating deployments using Docker, CI/CD pipelines, and Azure Bicep for IaC.',
+    link: '#',
+    uid: 'stack-4',
+  },
+  {
+    title: 'Automated Testing (xUnit)',
+    description: 'Ensuring system reliability through Unit and Integration testing to maintain high code quality.',
+    link: '#',
+    uid: 'stack-5',
+  },
+  {
+    title: 'Python & Data Analysis',
+    description: 'Leveraging Python and Pandas for data-driven projects, with an active focus on scalable data processing.',
+    link: '#',
+    uid: 'stack-6',
   },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
+    link: 'https://github.com/lusandadotnet',
   },
   {
     label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://twitter.com/lusandan24',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/lusandan',
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.instagram.com/lusandan24',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'lusandandlovu0500@gmail.com'

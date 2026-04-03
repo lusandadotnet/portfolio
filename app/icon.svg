@@ -1,0 +1,12 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&amp;display=swap');
+    .L { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px; font-weight: 700; fill: #2e7d32; }
+    .N { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px; font-weight: 700; fill: #1b5e20; }
+  </style>
+
+  <text x="11" y="26" class="N">N</text>
+  <text x="2" y="26" class="L">L</text>
+
+  <line x1="2" y1="29" x2="26" y2="29" stroke="#2e7d32" stroke-width="1"/>
+</svg>

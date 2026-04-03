@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   title: {
-    default: 'Nim - Personal website template',
-    template: '%s | Nim'
+    default: 'Lusanda Ndlovu | Software Developer',
+    template: '%s | Lusanda Ndlovu',
   },
-  description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
+  description:  'Personal portfolio of Lusanda Ndlovu, a backend software developer and final-year student at Nelson Mandela University specializing in scalable .NET applications, APIs, and system design.'
 };
 
 const geist = Geist({
