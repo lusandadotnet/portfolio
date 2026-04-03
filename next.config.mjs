@@ -8,7 +8,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/portfolio', // Ensure this exactly matches your repo name
+  basePath: '/portfolio', 
 };
 
 const withMDX = createMDX({
