@@ -70,7 +70,7 @@ export const projects = {
             description:
                 "Cross-platform pipeline: ASP.NET Core 10 Web API plus a Python FastMCP server so LLMs can query macroeconomic-style data over REST and MCP. Deployed on Azure App Service and Azure Functions with xUnit and pytest coverage across the stack.",
             tags: ["C#", "Python", "Azure", "SQL","MCP", "FastMCP", "ASP.NET Web API", "REST"],
-            link: "https://github.com/lusandadotnet/serveless-mcp-data-orchestrator",
+            link: "https://github.com/lusandadotnet/serverless-mcp-orchestrator",
         },
         {
             title: "Learning Management System with AI Chatbot",
