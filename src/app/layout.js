@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 export const metadata = {
     title: `${seo.title}`,
     icons: {
-        icon: [{ url: "/favicon.png", type: "image/png" }],
+        icon: "/favicon.png", // Simplified to a direct string
     },
     description: `${seo.description}`,
     keywords: `${seo.keywords}`,
