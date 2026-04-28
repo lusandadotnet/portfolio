@@ -116,7 +116,7 @@ export const education = [
         location: "Gqeberha, Eastern Cape",
         credential: "Diploma in Information Technology",
         focus: "Software Development",
-        note: "Expected Nov 2026, Grad Apr 2027",
+        note: "Expected, Nov 2026",
     },
 ];
 
