@@ -15,9 +15,9 @@ export default function About() {
                         ))}
                     </ul>
                     <div className="mt-2 space-y-3">
-                        <h3 className="text-sm font-semibold uppercase tracking-wide text-base-content/50">
+                        <h2 className="text-xl font-medium before:content-['>'] before:mr-1">
                             Education
-                        </h3>
+                        </h2>
                         {education.map((ed, i) => (
                             <div key={i} className="text-base text-base-content/80">
                                 <p className="font-medium text-base-content">
